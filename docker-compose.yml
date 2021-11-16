@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+ galene: 
+    build:
+      context: ./
+    image: galene
+    container_name: galene
+    ports:
+      - 8443:8443
